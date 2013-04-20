@@ -1,0 +1,54 @@
+body {  
+    font-family: 'Droid Serif', serif;     
+    /*font-family: 'Cabin', Helvetica, Arial, sans-serif;*/
+}
+h1 {
+    color: #2E2E2E;
+}
+p, form {
+    color: #1C1C1C;
+    padding:0px 5px 0px 5px; /* t r b l*/
+}
+.info {
+    padding-top:15px;
+    padding-bottom:25px;
+    padding-right:25px;
+    padding-left:25px;
+}
+.logo > td {
+    text-align:center;
+    font-size:40px;
+    color: #000;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.logo > td > a {
+    font-family: 'Droid Serif', serif;
+    color:#000;
+    text-decoration: none;
+}
+/* -- Unordered lists of links: <ul><li><a> -- */
+#navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+} 
+
+#navbar ul li {  
+	display: inline; 
+} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #2c807f;
+} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+} 
+
+#navbar ul li a.active {
+    color: #000; 
+}
